@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ASCII"?>
-<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmi:id="_JGfNsH9hEeuLD8aAHDEzcg" name="533Encryption" models="_JGfNsX9hEeuLD8aAHDEzcg">
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmi:id="_JGfNsH9hEeuLD8aAHDEzcg" name="533Encryption" models="_JGfNsX9hEeuLD8aAHDEzcg _LFZ4wYAiEeu8d4eA6ucykg">
   <featureModel xmi:id="_JGfNsX9hEeuLD8aAHDEzcg" coreConcern="_JGfNsH9hEeuLD8aAHDEzcg" root="_JGfNsn9hEeuLD8aAHDEzcg">
     <features xmi:id="_JGfNsn9hEeuLD8aAHDEzcg" name="533Encryption" children="_K_v1YH9hEeuLD8aAHDEzcg _NTwC4H9iEeuLD8aAHDEzcg _OhBHQH9iEeuLD8aAHDEzcg _NTRFQH9jEeuLD8aAHDEzcg _QMTu8H9jEeuLD8aAHDEzcg"/>
     <features xmi:id="_K_v1YH9hEeuLD8aAHDEzcg" name="CryptoProvider" children="_dOoq4H9lEeuLD8aAHDEzcg _ehlggH9lEeuLD8aAHDEzcg" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Mandatory"/>
@@ -18,4 +18,65 @@
     <features xmi:id="_Plw9QH9sEeuLD8aAHDEzcg" name="Hosted" parent="_NTRFQH9jEeuLD8aAHDEzcg" parentRelationship="XOR"/>
     <features xmi:id="_Dg1WUH9tEeuLD8aAHDEzcg" name="StoreKey" parent="_dWthcH9oEeuLD8aAHDEzcg" parentRelationship="Optional"/>
   </featureModel>
+  <impactModel xmi:id="_LFZ4wYAiEeu8d4eA6ucykg" name="Impact Model" coreConcern="_JGfNsH9hEeuLD8aAHDEzcg">
+    <impactModelElements xmi:id="_LFbt8IAiEeu8d4eA6ucykg" name="EcryptionStrength"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_PSb54IAiEeu8d4eA6ucykg" name="CryptoProvider" scalingFactor="1.0" represents="_K_v1YH9hEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_QpM4gIAiEeu8d4eA6ucykg" name="SHA-256" scalingFactor="1.0" represents="_p3XF8H9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_Q91EsIAiEeu8d4eA6ucykg" name="RSA" scalingFactor="1.0" represents="_q-P1gH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_SHn-UIAiEeu8d4eA6ucykg" name="Caesar" scalingFactor="1.0" represents="_toAtEH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_V0yMkIAiEeu8d4eA6ucykg" name="Salt" scalingFactor="1.0" represents="_DMXRQH9kEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_alBBYIAiEeu8d4eA6ucykg" name="Sign" scalingFactor="1.0" represents="_QMTu8H9jEeuLD8aAHDEzcg"/>
+    <impactModelElements xmi:id="_vqAeIIAiEeu8d4eA6ucykg" name="Efficiency"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_xiwvgIAiEeu8d4eA6ucykg" name="Caesar" scalingFactor="1.0" represents="_toAtEH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_ySHv4IAiEeu8d4eA6ucykg" name="RSA" scalingFactor="1.0" represents="_q-P1gH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_yhEK0IAiEeu8d4eA6ucykg" name="Salt" scalingFactor="1.0" represents="_DMXRQH9kEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_yl1WEIAiEeu8d4eA6ucykg" name="SHA-256" scalingFactor="1.0" represents="_p3XF8H9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_2BzGoIAiEeu8d4eA6ucykg" name="Sign" scalingFactor="1.0" represents="_QMTu8H9jEeuLD8aAHDEzcg"/>
+    <layouts xmi:id="_LFbt8YAiEeu8d4eA6ucykg" key="_LFbt8IAiEeu8d4eA6ucykg">
+      <value xmi:id="_LFc8EIAiEeu8d4eA6ucykg" key="_LFbt8IAiEeu8d4eA6ucykg">
+        <value xmi:id="_LFc8EYAiEeu8d4eA6ucykg" x="758.49994" y="94.000015"/>
+      </value>
+      <value xmi:id="_PSb54YAiEeu8d4eA6ucykg" key="_PSb54IAiEeu8d4eA6ucykg">
+        <value xmi:id="_PSb54oAiEeu8d4eA6ucykg" x="1092.1594" y="353.9999"/>
+      </value>
+      <value xmi:id="_QpM4gYAiEeu8d4eA6ucykg" key="_QpM4gIAiEeu8d4eA6ucykg">
+        <value xmi:id="_QpM4goAiEeu8d4eA6ucykg" x="818.6971" y="390.99982"/>
+      </value>
+      <value xmi:id="_Q91rwIAiEeu8d4eA6ucykg" key="_Q91EsIAiEeu8d4eA6ucykg">
+        <value xmi:id="_Q91rwYAiEeu8d4eA6ucykg" x="677.5838" y="478.99994"/>
+      </value>
+      <value xmi:id="_SHn-UYAiEeu8d4eA6ucykg" key="_SHn-UIAiEeu8d4eA6ucykg">
+        <value xmi:id="_SHn-UoAiEeu8d4eA6ucykg" x="504.54816" y="456.99985"/>
+      </value>
+      <value xmi:id="_V0yzoIAiEeu8d4eA6ucykg" key="_V0yMkIAiEeu8d4eA6ucykg">
+        <value xmi:id="_V0yzoYAiEeu8d4eA6ucykg" x="590.61914" y="469.99988"/>
+      </value>
+      <value xmi:id="_alBBYYAiEeu8d4eA6ucykg" key="_alBBYIAiEeu8d4eA6ucykg">
+        <value xmi:id="_alBBYoAiEeu8d4eA6ucykg" x="463.14276" y="376.99994"/>
+      </value>
+      <value xmi:id="_g-PbAIAnEeuEP5_2TelySQ" key="_vqAeIIAiEeu8d4eA6ucykg">
+        <value xmi:id="_g-PbAYAnEeuEP5_2TelySQ" x="99.0" y="521.0"/>
+      </value>
+    </layouts>
+    <layouts xmi:id="_vqCTUIAiEeu8d4eA6ucykg" key="_vqAeIIAiEeu8d4eA6ucykg">
+      <value xmi:id="_vqCTUYAiEeu8d4eA6ucykg" key="_vqAeIIAiEeu8d4eA6ucykg">
+        <value xmi:id="_vqCTUoAiEeu8d4eA6ucykg" x="720.0" y="50.0"/>
+      </value>
+      <value xmi:id="_xiwvgYAiEeu8d4eA6ucykg" key="_xiwvgIAiEeu8d4eA6ucykg">
+        <value xmi:id="_xixWkIAiEeu8d4eA6ucykg" x="871.21454" y="353.9997"/>
+      </value>
+      <value xmi:id="_ySHv4YAiEeu8d4eA6ucykg" key="_ySHv4IAiEeu8d4eA6ucykg">
+        <value xmi:id="_ySHv4oAiEeu8d4eA6ucykg" x="516.6509" y="441.99988"/>
+      </value>
+      <value xmi:id="_yhEx4IAiEeu8d4eA6ucykg" key="_yhEK0IAiEeu8d4eA6ucykg">
+        <value xmi:id="_yhEx4YAiEeu8d4eA6ucykg" x="601.5453" y="457.99994"/>
+      </value>
+      <value xmi:id="_yl1WEYAiEeu8d4eA6ucykg" key="_yl1WEIAiEeu8d4eA6ucykg">
+        <value xmi:id="_yl1WEoAiEeu8d4eA6ucykg" x="411.87363" y="386.99994"/>
+      </value>
+      <value xmi:id="_2BzGoYAiEeu8d4eA6ucykg" key="_2BzGoIAiEeu8d4eA6ucykg">
+        <value xmi:id="_2BzGooAiEeu8d4eA6ucykg" x="737.8647" y="428.99994"/>
+      </value>
+    </layouts>
+  </impactModel>
 </core:COREConcern>
