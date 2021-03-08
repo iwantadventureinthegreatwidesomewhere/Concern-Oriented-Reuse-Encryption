@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmi:id="_JGfNsH9hEeuLD8aAHDEzcg" name="533Encryption" models="_JGfNsX9hEeuLD8aAHDEzcg">
+  <featureModel xmi:id="_JGfNsX9hEeuLD8aAHDEzcg" coreConcern="_JGfNsH9hEeuLD8aAHDEzcg" root="_JGfNsn9hEeuLD8aAHDEzcg">
+    <features xmi:id="_JGfNsn9hEeuLD8aAHDEzcg" name="533Encryption" children="_K_v1YH9hEeuLD8aAHDEzcg _NTwC4H9iEeuLD8aAHDEzcg _OhBHQH9iEeuLD8aAHDEzcg _NTRFQH9jEeuLD8aAHDEzcg _QMTu8H9jEeuLD8aAHDEzcg"/>
+    <features xmi:id="_K_v1YH9hEeuLD8aAHDEzcg" name="CryptoProvider" children="_dOoq4H9lEeuLD8aAHDEzcg _ehlggH9lEeuLD8aAHDEzcg" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Mandatory"/>
+    <features xmi:id="_NTwC4H9iEeuLD8aAHDEzcg" name="Encrypt" children="_dWthcH9oEeuLD8aAHDEzcg" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Mandatory"/>
+    <features xmi:id="_OhBHQH9iEeuLD8aAHDEzcg" name="Decrypt" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Mandatory"/>
+    <features xmi:id="_NTRFQH9jEeuLD8aAHDEzcg" name="Keystore" children="_Oc87EH9sEeuLD8aAHDEzcg _Plw9QH9sEeuLD8aAHDEzcg" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Optional"/>
+    <features xmi:id="_QMTu8H9jEeuLD8aAHDEzcg" name="Sign" parent="_JGfNsn9hEeuLD8aAHDEzcg" parentRelationship="Optional"/>
+    <features xmi:id="_DMXRQH9kEeuLD8aAHDEzcg" name="Salt" parent="_dWthcH9oEeuLD8aAHDEzcg" parentRelationship="Optional"/>
+    <features xmi:id="_dOoq4H9lEeuLD8aAHDEzcg" name="Symmetric" children="_p3XF8H9lEeuLD8aAHDEzcg _toAtEH9lEeuLD8aAHDEzcg" parent="_K_v1YH9hEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_ehlggH9lEeuLD8aAHDEzcg" name="Asymmetric" children="_q-P1gH9lEeuLD8aAHDEzcg" parent="_K_v1YH9hEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_p3XF8H9lEeuLD8aAHDEzcg" name="SHA-256" parent="_dOoq4H9lEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_q-P1gH9lEeuLD8aAHDEzcg" name="RSA" parent="_ehlggH9lEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_toAtEH9lEeuLD8aAHDEzcg" name="Caesar" parent="_dOoq4H9lEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_dWthcH9oEeuLD8aAHDEzcg" name="GenerateKey" children="_DMXRQH9kEeuLD8aAHDEzcg _Dg1WUH9tEeuLD8aAHDEzcg" parent="_NTwC4H9iEeuLD8aAHDEzcg" parentRelationship="Mandatory"/>
+    <features xmi:id="_Oc87EH9sEeuLD8aAHDEzcg" name="Local" parent="_NTRFQH9jEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_Plw9QH9sEeuLD8aAHDEzcg" name="Hosted" parent="_NTRFQH9jEeuLD8aAHDEzcg" parentRelationship="XOR"/>
+    <features xmi:id="_Dg1WUH9tEeuLD8aAHDEzcg" name="StoreKey" parent="_dWthcH9oEeuLD8aAHDEzcg" parentRelationship="Optional"/>
+  </featureModel>
+</core:COREConcern>
