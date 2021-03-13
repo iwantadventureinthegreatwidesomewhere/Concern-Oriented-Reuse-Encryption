@@ -34,6 +34,12 @@
     <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_2-MmEIHmEeu-cfrgW2V7qQ" name="Sign" scalingFactor="1.0" outgoing="_5z4ZwIHmEeu-cfrgW2V7qQ" represents="_QMTu8H9jEeuLD8aAHDEzcg"/>
     <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_3CTC8IHmEeu-cfrgW2V7qQ" name="Sha" scalingFactor="1.0" outgoing="_8KjWMIHmEeu-cfrgW2V7qQ" represents="_p3XF8H9lEeuLD8aAHDEzcg"/>
     <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_3JTp4IHmEeu-cfrgW2V7qQ" name="RsaAlgorithm" scalingFactor="1.0" outgoing="_9Yd60IHmEeu-cfrgW2V7qQ" represents="_q-P1gH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xmi:id="_bTGvIIRDEeuO_OqHCEk3UQ" name="Decrease cost" scalingFactor="11.111111" offset="133.33333" incoming="_0C8tAIRDEeuO_OqHCEk3UQ _0aOkkIRDEeuO_OqHCEk3UQ _1K4lcIRDEeuO_OqHCEk3UQ _1jX98IRDEeuO_OqHCEk3UQ _19dR4IRDEeuO_OqHCEk3UQ"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_m2qR4IRDEeuO_OqHCEk3UQ" name="Asymmetric" scalingFactor="1.0" outgoing="_0C8tAIRDEeuO_OqHCEk3UQ" represents="_ehlggH9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_p0D3IIRDEeuO_OqHCEk3UQ" name="Salt" scalingFactor="1.0" outgoing="_19dR4IRDEeuO_OqHCEk3UQ" represents="_DMXRQH9kEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_rIYlwIRDEeuO_OqHCEk3UQ" name="Symmetric" scalingFactor="1.0" outgoing="_1jX98IRDEeuO_OqHCEk3UQ" represents="_dOoq4H9lEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_sZclAIRDEeuO_OqHCEk3UQ" name="Local" scalingFactor="1.0" outgoing="_1K4lcIRDEeuO_OqHCEk3UQ" represents="_Oc87EH9sEeuLD8aAHDEzcg"/>
+    <impactModelElements xsi:type="core:COREFeatureImpactNode" xmi:id="_s01ggIRDEeuO_OqHCEk3UQ" name="Hosted" scalingFactor="1.0" outgoing="_0aOkkIRDEeuO_OqHCEk3UQ" represents="_Plw9QH9sEeuLD8aAHDEzcg"/>
     <layouts xmi:id="___dwAYAqEeua_ddQhh1CjQ" key="___dwAIAqEeua_ddQhh1CjQ">
       <value xmi:id="___eXEIAqEeua_ddQhh1CjQ" key="___dwAIAqEeua_ddQhh1CjQ">
         <value xmi:id="___eXEYAqEeua_ddQhh1CjQ" x="741.9996" y="75.00012"/>
@@ -83,6 +89,26 @@
         <value xmi:id="_3JTp4oHmEeu-cfrgW2V7qQ" x="352.61432" y="401.9999"/>
       </value>
     </layouts>
+    <layouts xmi:id="_bTIkUIRDEeuO_OqHCEk3UQ" key="_bTGvIIRDEeuO_OqHCEk3UQ">
+      <value xmi:id="_bTJycIRDEeuO_OqHCEk3UQ" key="_bTGvIIRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_bTJycYRDEeuO_OqHCEk3UQ" x="500.0" y="50.0"/>
+      </value>
+      <value xmi:id="_m2qR4YRDEeuO_OqHCEk3UQ" key="_m2qR4IRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_m2qR4oRDEeuO_OqHCEk3UQ" x="222.6763" y="336.99997"/>
+      </value>
+      <value xmi:id="_p0EeMIRDEeuO_OqHCEk3UQ" key="_p0D3IIRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_p0EeMYRDEeuO_OqHCEk3UQ" x="802.2678" y="340.9999"/>
+      </value>
+      <value xmi:id="_rIYlwYRDEeuO_OqHCEk3UQ" key="_rIYlwIRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_rIYlwoRDEeuO_OqHCEk3UQ" x="632.56995" y="353.99985"/>
+      </value>
+      <value xmi:id="_sZclAYRDEeuO_OqHCEk3UQ" key="_sZclAIRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_sZclAoRDEeuO_OqHCEk3UQ" x="480.4765" y="357.0001"/>
+      </value>
+      <value xmi:id="_s01ggYRDEeuO_OqHCEk3UQ" key="_s01ggIRDEeuO_OqHCEk3UQ">
+        <value xmi:id="_s01ggoRDEeuO_OqHCEk3UQ" x="343.6984" y="347.00006"/>
+      </value>
+    </layouts>
     <contributions xmi:id="_oBcS4IHmEeu-cfrgW2V7qQ" relativeWeight="2" source="_nkf4MIHmEeu-cfrgW2V7qQ" impacts="_kgXY0IHmEeu-cfrgW2V7qQ"/>
     <contributions xmi:id="_pOBawIHmEeu-cfrgW2V7qQ" relativeWeight="5" source="_kgXY0IHmEeu-cfrgW2V7qQ" impacts="___dwAIAqEeua_ddQhh1CjQ"/>
     <contributions xmi:id="_rR8aUIHmEeu-cfrgW2V7qQ" relativeWeight="3" source="_nKZ9MIHmEeu-cfrgW2V7qQ" impacts="_kgXY0IHmEeu-cfrgW2V7qQ"/>
@@ -96,5 +122,10 @@
     <contributions xmi:id="_79NdwIHmEeu-cfrgW2V7qQ" relativeWeight="8" source="_2KDMUIHmEeu-cfrgW2V7qQ" impacts="_0dAbsIHmEeu-cfrgW2V7qQ"/>
     <contributions xmi:id="_8KjWMIHmEeu-cfrgW2V7qQ" relativeWeight="2" source="_3CTC8IHmEeu-cfrgW2V7qQ" impacts="_0dAbsIHmEeu-cfrgW2V7qQ"/>
     <contributions xmi:id="_9Yd60IHmEeu-cfrgW2V7qQ" relativeWeight="2" source="_3JTp4IHmEeu-cfrgW2V7qQ" impacts="_yxi_cIHmEeu-cfrgW2V7qQ"/>
+    <contributions xmi:id="_0C8tAIRDEeuO_OqHCEk3UQ" relativeWeight="-4" source="_m2qR4IRDEeuO_OqHCEk3UQ" impacts="_bTGvIIRDEeuO_OqHCEk3UQ"/>
+    <contributions xmi:id="_0aOkkIRDEeuO_OqHCEk3UQ" relativeWeight="-6" source="_s01ggIRDEeuO_OqHCEk3UQ" impacts="_bTGvIIRDEeuO_OqHCEk3UQ"/>
+    <contributions xmi:id="_1K4lcIRDEeuO_OqHCEk3UQ" relativeWeight="-1" source="_sZclAIRDEeuO_OqHCEk3UQ" impacts="_bTGvIIRDEeuO_OqHCEk3UQ"/>
+    <contributions xmi:id="_1jX98IRDEeuO_OqHCEk3UQ" relativeWeight="-3" source="_rIYlwIRDEeuO_OqHCEk3UQ" impacts="_bTGvIIRDEeuO_OqHCEk3UQ"/>
+    <contributions xmi:id="_19dR4IRDEeuO_OqHCEk3UQ" relativeWeight="-2" source="_p0D3IIRDEeuO_OqHCEk3UQ" impacts="_bTGvIIRDEeuO_OqHCEk3UQ"/>
   </impactModel>
 </core:COREConcern>

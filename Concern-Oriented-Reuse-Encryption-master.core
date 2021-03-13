@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<core:COREConcern xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:core="http://cs.mcgill.ca/sel/core/2.0" xmi:id="_8sIl0IRCEeuO_OqHCEk3UQ" name="Concern-Oriented-Reuse-Encryption-master" models="_8sIl0YRCEeuO_OqHCEk3UQ">
+  <featureModel xmi:id="_8sIl0YRCEeuO_OqHCEk3UQ" coreConcern="_8sIl0IRCEeuO_OqHCEk3UQ" root="_8sIl0oRCEeuO_OqHCEk3UQ">
+    <features xmi:id="_8sIl0oRCEeuO_OqHCEk3UQ" name="Concern-Oriented-Reuse-Encryption-master"/>
+  </featureModel>
+</core:COREConcern>
