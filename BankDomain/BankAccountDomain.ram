@@ -58,22 +58,22 @@
   <coreConcern href="Bank.core#_xvGmwIUiEeus15Hp_1HvOQ"/>
   <structuralView xmi:id="_mh7Rz4UkEeunl4WV3QWdwQ">
     <classes xsi:type="ram:Class" xmi:id="_mh7R0IUkEeunl4WV3QWdwQ" name="Transaction">
-      <operations xmi:id="_8dyFEIUkEeunl4WV3QWdwQ" name="removeMyBankAccount" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
+      <operations xmi:id="_8dyFEIUkEeunl4WV3QWdwQ" name="removePerformedOn" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
         <parameters xmi:id="_8dyFEYUkEeunl4WV3QWdwQ" name="a" type="_mh7R4IUkEeunl4WV3QWdwQ"/>
       </operations>
-      <operations xmi:id="_8dzTMIUkEeunl4WV3QWdwQ" name="addMyBankAccount" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
+      <operations xmi:id="_8dzTMIUkEeunl4WV3QWdwQ" name="addPerformedOn" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
         <parameters xmi:id="_8dzTMYUkEeunl4WV3QWdwQ" name="a" type="_mh7R4IUkEeunl4WV3QWdwQ"/>
       </operations>
-      <operations xmi:id="_8dz6QIUkEeunl4WV3QWdwQ" name="createMyBankAccount" extendedVisibility="package" returnType="_mh7R0IUkEeunl4WV3QWdwQ" operationType="Constructor"/>
-      <operations xmi:id="_8dz6QYUkEeunl4WV3QWdwQ" name="containsMyBankAccount" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
+      <operations xmi:id="_8dz6QIUkEeunl4WV3QWdwQ" name="createPerformedOn" extendedVisibility="package" returnType="_mh7R0IUkEeunl4WV3QWdwQ" operationType="Constructor"/>
+      <operations xmi:id="_8dz6QYUkEeunl4WV3QWdwQ" name="containsPerformedOn" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
         <parameters xmi:id="_8dz6QoUkEeunl4WV3QWdwQ" name="a" type="_mh7R4IUkEeunl4WV3QWdwQ"/>
       </operations>
-      <operations xmi:id="_8d0hUIUkEeunl4WV3QWdwQ" name="sizeOfMyBankAccount" extendedVisibility="package" returnType="_mh7R8oUkEeunl4WV3QWdwQ"/>
-      <operations xmi:id="_8d1IYIUkEeunl4WV3QWdwQ" name="getMyBankAccount" extendedVisibility="package">
+      <operations xmi:id="_8d0hUIUkEeunl4WV3QWdwQ" name="sizeOfPerformedOn" extendedVisibility="package" returnType="_mh7R8oUkEeunl4WV3QWdwQ"/>
+      <operations xmi:id="_8d1IYIUkEeunl4WV3QWdwQ" name="getPerformedOn" extendedVisibility="package">
         <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many_Minimum_Plain.ram#_MKGCb4UkEeunl4WV3QWdwQ"/>
       </operations>
       <associationEnds xmi:id="_mh7R1IUkEeunl4WV3QWdwQ" name="myUser" lowerBound="1" navigable="false" assoc="_mh7R7YUkEeunl4WV3QWdwQ"/>
-      <associationEnds xmi:id="_mh7R1YUkEeunl4WV3QWdwQ" name="myBankAccount" lowerBound="1" upperBound="-1" assoc="_mh7R7oUkEeunl4WV3QWdwQ" featureSelection="_8dxeAIUkEeunl4WV3QWdwQ"/>
+      <associationEnds xmi:id="_mh7R1YUkEeunl4WV3QWdwQ" name="performedOn" lowerBound="1" upperBound="-1" assoc="_mh7R7oUkEeunl4WV3QWdwQ" featureSelection="_8dxeAIUkEeunl4WV3QWdwQ"/>
       <attributes xmi:id="_mh7R1oUkEeunl4WV3QWdwQ" name="transactionID" type="_mh7R8oUkEeunl4WV3QWdwQ"/>
       <attributes xmi:id="_mh7R14UkEeunl4WV3QWdwQ" name="userID" type="_mh7R8oUkEeunl4WV3QWdwQ"/>
       <attributes xmi:id="_mh7R2IUkEeunl4WV3QWdwQ" name="AccountID" type="_mh7R8oUkEeunl4WV3QWdwQ"/>
@@ -94,15 +94,15 @@
       <attributes xmi:id="_mh7R44UkEeunl4WV3QWdwQ" name="Balance" type="_mh7R9YUkEeunl4WV3QWdwQ"/>
     </classes>
     <classes xsi:type="ram:Class" xmi:id="_mh7R5IUkEeunl4WV3QWdwQ" name="User">
-      <operations xmi:id="_mh7R5YUkEeunl4WV3QWdwQ" name="createMyTransaction" extendedVisibility="package" returnType="_mh7R5IUkEeunl4WV3QWdwQ" operationType="Constructor"/>
-      <operations xmi:id="_mh7R5oUkEeunl4WV3QWdwQ" name="containsMyTransaction" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
+      <operations xmi:id="_mh7R5YUkEeunl4WV3QWdwQ" name="createExecutes" extendedVisibility="package" returnType="_mh7R5IUkEeunl4WV3QWdwQ" operationType="Constructor"/>
+      <operations xmi:id="_mh7R5oUkEeunl4WV3QWdwQ" name="containsExecutes" extendedVisibility="package" returnType="_mh7R8YUkEeunl4WV3QWdwQ">
         <parameters xmi:id="_mh7R54UkEeunl4WV3QWdwQ" name="a" type="_mh7R0IUkEeunl4WV3QWdwQ"/>
       </operations>
-      <operations xmi:id="_mh7R6IUkEeunl4WV3QWdwQ" name="sizeOfMyTransaction" extendedVisibility="package" returnType="_mh7R8oUkEeunl4WV3QWdwQ"/>
-      <operations xmi:id="_mh7R6YUkEeunl4WV3QWdwQ" name="getMyTransaction" extendedVisibility="package">
+      <operations xmi:id="_mh7R6IUkEeunl4WV3QWdwQ" name="sizeOfExecutes" extendedVisibility="package" returnType="_mh7R8oUkEeunl4WV3QWdwQ"/>
+      <operations xmi:id="_mh7R6YUkEeunl4WV3QWdwQ" name="getExecutes" extendedVisibility="package">
         <returnType xsi:type="ram:Class" href="Reused_Association/Woven_Association_Association_Many.ram#_QUfmQoUkEeunl4WV3QWdwQ"/>
       </operations>
-      <associationEnds xmi:id="_mh7R6oUkEeunl4WV3QWdwQ" name="myTransaction" upperBound="-1" assoc="_mh7R7YUkEeunl4WV3QWdwQ" featureSelection="_mh7Rx4UkEeunl4WV3QWdwQ"/>
+      <associationEnds xmi:id="_mh7R6oUkEeunl4WV3QWdwQ" name="executes" upperBound="-1" assoc="_mh7R7YUkEeunl4WV3QWdwQ" featureSelection="_mh7Rx4UkEeunl4WV3QWdwQ"/>
       <attributes xmi:id="_mh7R64UkEeunl4WV3QWdwQ" name="Name" type="_mh7R9IUkEeunl4WV3QWdwQ"/>
       <attributes xmi:id="_mh7R7IUkEeunl4WV3QWdwQ" name="UserID" type="_mh7R8oUkEeunl4WV3QWdwQ"/>
     </classes>
